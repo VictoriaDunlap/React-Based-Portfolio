@@ -1,6 +1,6 @@
 import React from 'react'
 
-function NavBar(props) {
+function NavBar() {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
