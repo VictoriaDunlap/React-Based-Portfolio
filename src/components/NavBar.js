@@ -37,9 +37,17 @@ function NavBar() {
             </ul>
             <ul class="navbar-nav ms-md-auto">
               <li class="nav-item">
-                <i class="bi bi-github" href="https://github.com/VictoriaDunlap"></i> &nbsp;
-                <i class="bi bi-linkedin" href="https://www.linkedin.com/in/victoria-dunlap/"></i>
+                <a target="_blank" rel="noopener" class="nav-link" href="https://github.com/VictoriaDunlap">
+                <i class="bi bi-github"> GitHub</i>
+                </a>
               </li>
+              <li class="nav-item">
+              <a target="_blank" rel="noopener" class="nav-link" href="https://www.linkedin.com/in/victoria-dunlap/">
+              <i class="bi bi-linkedin"> LinkedIn</i>
+              </a>
+              </li>
+                
+              
             </ul>
             {/* <form class="d-flex">
               <input class="form-control me-sm-2" type="text" placeholder="Search"></input>
