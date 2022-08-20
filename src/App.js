@@ -1,7 +1,6 @@
+import logo from './logo.svg';
 import React from "react";
-// import Footer from "./components/Footer";
-
-// import NavBar from "./components/NavBar"
+import './App.css';
 import Portfolio from './components/Portfolio'
 
 function App() {
