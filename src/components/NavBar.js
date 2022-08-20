@@ -1,10 +1,10 @@
 import React from 'react'
+import AboutMe from './AboutMe'
 
 function NavBar() {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Victoria Dunlap</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -16,7 +16,7 @@ function NavBar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#AboutMe">About</a>
               </li>
               {/* <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
