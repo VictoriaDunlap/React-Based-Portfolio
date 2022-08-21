@@ -1,49 +1,28 @@
 import React from 'react'
-import pfp from '../assets/greenmetoresize.jpg'
 import RR from '../assets/reprorights.png'
+import ecommerce from '../assets/ecommerce.jpg'
 
 function Projects() {
     return(
-        <div id="carouselExampleCaptions" class="carousel slide px-2 py-4" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div id="worksCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="img-fluid d-block w-100" src={RR} alt="First slide"></img>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={RR} class="d-block w-100" alt="placeholder"></img>
-            <div class="carousel-caption d-none d-md-block">
-            <a class="nav-link" href="https://github.com/VictoriaDunlap/Reproductive-Rights-Info-Hub">
-              <h5>First slide label</h5>
-              </a>
-              <p>First collaborative project using bootstrap</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src={pfp} class="d-block w-100" alt="placeholder"></img>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src={pfp} class="d-block w-100" alt="placeholder"></img>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
+        <div class="carousel-item">
+          <img class="img-fluid d-block w-100" src={ecommerce} alt="Second slide"></img>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+        <img class="img-fluid d-block w-100" src={ecommerce} alt="Third slide"></img>
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#worksCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#worksCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
     )
 }
 
