@@ -1,8 +1,10 @@
 import React from 'react'
+import pfp from '../assets/greenmetoresize.jpg'
+import RR from '../assets/reprorights.png'
 
 function Projects() {
     return(
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div id="carouselExampleCaptions" class="carousel slide px-2 py-4" data-bs-ride="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -10,21 +12,23 @@ function Projects() {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="placeholder"></img>
+            <img src={RR} class="d-block w-100" alt="placeholder"></img>
             <div class="carousel-caption d-none d-md-block">
+            <a class="nav-link" href="https://github.com/VictoriaDunlap/Reproductive-Rights-Info-Hub">
               <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              </a>
+              <p>First collaborative project using bootstrap</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="placeholder"></img>
+            <img src={pfp} class="d-block w-100" alt="placeholder"></img>
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="placeholder"></img>
+            <img src={pfp} class="d-block w-100" alt="placeholder"></img>
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>

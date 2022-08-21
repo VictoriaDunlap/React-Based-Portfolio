@@ -10,8 +10,8 @@ function Portfolio() {
         <div>
             <NavBar />
             <AboutMe />
-            <Projects />
-            <Footer />
+          
+          
         </div>
     )
 }
