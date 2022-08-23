@@ -22,17 +22,17 @@ function NavBar() {
                 <a class="nav-link" href="#">Pricing</a>
               </li> */}
               <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vS_nKj-_pmjFeGoD5o_AeV6QBLcUdcn_X23uadyAMjkjxrejPOqBANGMwMdowaFLMAcjHBYY_g2eq1w/pub">Resume</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#Works" role="button" aria-haspopup="true" aria-expanded="false">Work</a>
-                <div class="dropdown-menu">
+              <li class="nav-item">
+              <a class="nav-link" href="#Works">Work</a>
+                {/* <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Repro Rights</a>
                   <a class="dropdown-item" href="#">ANother one</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Separated link</a>
-                </div>
+                </div> */}
               </li>
             </ul>
             <ul class="navbar-nav ms-md-auto">
