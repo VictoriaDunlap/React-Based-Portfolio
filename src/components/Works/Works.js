@@ -11,9 +11,10 @@ const style = {
 
 function Works() {
     return(
-        <div id="Works" class="container row center mx-auto d-flex justify-content-around">
+        <div id="Works" class="container ">
 
-            <div class="card col-lg-4" style={style}>
+            <div class='row d-flex justify-content-around'>
+            <div class="card col-lg-3" style={style}>
                     <img src={reprorights} class="card-img-top" alt="placeholder"></img>
                 <div class="card-body">
                     <h5 class="card-title">Reproductive Rights Center</h5>
@@ -22,7 +23,7 @@ function Works() {
                 </div>
             </div>
 
-            <div class="card col-lg-4" style={style}>
+            <div class="card col-lg-3" style={style}>
                     <img src={ecommerce} class="card-img-top" alt="placeholder"></img>
                 <div class="card-body">
                     <h5 class="card-title">Backend Ecommerce Site</h5>
@@ -31,13 +32,14 @@ function Works() {
                 </div>
             </div>
 
-            <div class="card col-lg-4" style={style}>
+            <div class="card col-lg-3" style={style}>
                     <img src={placeHolder} class="card-img-top" alt="placeholder"></img>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
+            </div>
             </div>
 
         </div>
