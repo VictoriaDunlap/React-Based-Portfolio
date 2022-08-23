@@ -37,12 +37,12 @@ function NavBar() {
             </ul>
             <ul class="navbar-nav ms-md-auto">
               <li class="nav-item">
-                <a target="_blank" rel="noopener" class="nav-link" href="https://github.com/VictoriaDunlap">
+                <a target="_blank" rel="noreferrer noopener" class="nav-link" href="https://github.com/VictoriaDunlap">
                 <i class="bi bi-github"> GitHub</i>
                 </a>
               </li>
               <li class="nav-item">
-              <a target="_blank" rel="noopener" class="nav-link" href="https://www.linkedin.com/in/victoria-dunlap/">
+              <a target="_blank" rel="noreferrer noopener" class="nav-link" href="https://www.linkedin.com/in/victoria-dunlap/">
               <i class="bi bi-linkedin"> LinkedIn</i>
               </a>
               </li>

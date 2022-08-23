@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from '../src/components/NavBar/NavBar'
 import AboutMe from '../src/components/About/AboutMe'
 import Works from '../src/components/Works/Works'
+import Footer from '../src/components/Footer/Footer'
 
 function App() {
   return(
@@ -10,7 +11,7 @@ function App() {
           <NavBar />
           <AboutMe />
           <Works />
-        
+          <Footer />
       </div>
   )
 }

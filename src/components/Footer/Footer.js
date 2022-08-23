@@ -8,9 +8,16 @@ const style = {
 
 function Footer() {
     return(
-        <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={style}></div>
-      </div>
+        <div>
+         <h1 class="mx-5 mt-5 mb-3 row justify-content-center" style={style}>Lets Keep in Touch</h1>
+        <i class="bi bi-envelope">victoriacdunlap@gmail</i>
+        <a target="_blank" rel="noreferrer noopener" class="nav-link" href="https://github.com/VictoriaDunlap">
+        <i class="bi bi-github"> GitHub</i>
+        </a>
+        <a target="_blank" rel="noreferrer noopener" class="nav-link" href="https://www.linkedin.com/in/victoria-dunlap/">
+        <i class="bi bi-linkedin"> LinkedIn</i>
+        </a>
+        </div>
   )
 }
 
