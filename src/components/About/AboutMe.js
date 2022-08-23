@@ -1,5 +1,5 @@
 import React from 'react'
-import pfp from '../assets/greenMeToResize.jpg'
+import pfp from '../../assets/greenMeToResize.jpg'
 
 const style = {
     width: "200px;",
@@ -8,7 +8,7 @@ const style = {
 
 function AboutMe() {
     return(
-    <div>
+    <div id="About">
     <h1 class="mx-5 mt-5 mb-3 row justify-content-center" style={style}>Victoria Dunlap</h1>
         <div class="container-fluid row mb-5 ">
             <img class="col-lg-4" src={pfp} alt="Victoria Dunlap, sitting and smiling"></img>

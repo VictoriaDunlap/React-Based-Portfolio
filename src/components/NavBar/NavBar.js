@@ -1,9 +1,9 @@
 import React from 'react'
-import AboutMe from './AboutMe'
+// import AboutMe from '../About/AboutMe'
 
 function NavBar() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@ function NavBar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#AboutMe">About</a>
+                <a class="nav-link" href="#About">About</a>
               </li>
               {/* <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -25,7 +25,7 @@ function NavBar() {
                 <a class="nav-link" href="#">Resume</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#Works" role="button" aria-haspopup="true" aria-expanded="false">Work</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Repro Rights</a>
                   <a class="dropdown-item" href="#">ANother one</a>
