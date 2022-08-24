@@ -12,7 +12,16 @@ function AboutMe() {
     <h1 class="mx-5 mt-5 mb-3 row justify-content-center" style={style}>Victoria Dunlap</h1>
         <div class="container-fluid row mb-5 ">
             <img class="col-lg-4" src={pfp} alt="Victoria Dunlap, sitting and smiling"></img>
-            <p class="col-lg-8 mt-5 text-center mb-5 lead ">Full stack web developer leveraging a degree in PR and Marketing to create beautiful and interactive layouts to reach and engage large audiences. Completed a certificate from the Georgia Institute of Technology in full-stack development. Through this program I have harnessed skills in HTML, CSS, GIT, JavaScript, Node.js, React.js, Express.js, SQL, and MERN Stack. Experienced team player and problem solver with a focus on mobile-first design, ready to chat about what can be done for you!</p>
+            <div class="col-lg-8 mt-5 mb-5 lead ">
+            <p>Welcome!</p>
+            
+            <p>My name is Victoria Dunlap. I am a Software Developer based in Atlanta, GA. I studied fullstack development at Georgia Institute of Technology and PR and marketing at Kennesaw State University. Through this I am an experienced team player and problem solver with a focus on mobile-first design. </p>
+
+            <p>Languages I am familiar with include HTML, CSS, GIT, JavaScript, Node.js, React.js, Express.js, SQL, MERN Stack, GTM, Google Analytics, and Google Optimize. Current studies include Python, AWS, and HotJar. </p>
+
+            <p>In my spare time I enjoy running and being outside with my two dogs, as well as seeing my friends at every opportunity. 
+            </p>
+            </div>
         </div>
     </div>
     )
