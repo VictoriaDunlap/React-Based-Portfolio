@@ -10,7 +10,7 @@ function Footer() {
     return(
 
         <footer class="text-center text-white">
-          <h1 class="mt-5">Lets Keep in Touch</h1>
+          <h1 id="Contact" class="mt-5">Lets Keep in Touch</h1>
           <div class="container pt-4">
             
             <section class="mb-4">

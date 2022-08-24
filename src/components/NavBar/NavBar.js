@@ -26,13 +26,9 @@ function NavBar() {
               </li>
               <li class="nav-item">
               <a class="nav-link" href="#Works">Work</a>
-                {/* <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Repro Rights</a>
-                  <a class="dropdown-item" href="#">ANother one</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
-                </div> */}
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
               </li>
             </ul>
             <ul class="navbar-nav ms-md-auto">
