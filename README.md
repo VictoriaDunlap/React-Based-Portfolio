@@ -9,3 +9,5 @@ This is my deployed portfolio! Excited to show what I was able to do towards the
 ![portfolio pt3](./src/assets/portfolio-screenshot-pt3.jpg)
 
 # Deployed Link
+
+https://victoriadunlap.github.io/React-Based-Portfolio/ 
