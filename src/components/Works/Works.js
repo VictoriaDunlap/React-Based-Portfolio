@@ -23,7 +23,7 @@ function Works() {
                     <div class="card-body">
                         <h5 class="card-title">Reproductive Rights Center</h5>
                         <p class="card-text">A web app to keep you up-to-date with the current abortion laws going into effect across the nation.</p>
-                        <a target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/Reproductive-Rights-Info-Hub" class="btn btn-primary">Go Here</a>
+                        <a id="resume-button" target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/Reproductive-Rights-Info-Hub" class="btn btn-primary">Go Here</a>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ function Works() {
                     <div class="card-body">
                         <h5 class="card-title">Backend Ecommerce Site</h5>
                         <p class="card-text">This app is intended to show how the backend of an ecommerce site would work.</p>
-                        <a target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/ecommerce-site" class="btn btn-primary">Go Here</a>
+                        <a id="resume-button" target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/ecommerce-site" class="btn btn-primary">Go Here</a>
                     </div>
                 </div>
 
@@ -41,7 +41,7 @@ function Works() {
                     <div class="card-body">
                         <h5 class="card-title">Employee Tracker CMS</h5>
                         <p class="card-text">This application's intended use is for an organization to be able to keep and maintain an employee database including departments, roles, salaries, and managers.</p>
-                        <a target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/Employee-Tracker-CMS" class="btn btn-primary">Go Here</a>
+                        <a id="resume-button" target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/Employee-Tracker-CMS" class="btn btn-primary">Go Here</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ function Works() {
                     <div class="card-body">
                         <h5 class="card-title">Team Profile Generator</h5>
                         <p class="card-text">This command line application allows the user to create an HTML page to keep track and show off their team on the associated website that is generated.</p>
-                        <a target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/Team-Profile-Generator" class="btn btn-primary">Go Here</a>
+                        <a id="resume-button" target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/Team-Profile-Generator" class="btn btn-primary">Go Here</a>
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@ function Works() {
                     <div class="card-body">
                         <h5 class="card-title">Read Me Generator</h5>
                         <p class="card-text">This product is intended to help make quick and easy ReadMe.md files for any future projects. This includes sections for licensing, contribution, and testing as well.</p>
-                        <a target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/ReadMe-Generator-Using-Node/tree/main" class="btn btn-primary">Go Here</a>
+                        <a id="resume-button" target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/ReadMe-Generator-Using-Node/tree/main" class="btn btn-primary">Go Here</a>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@ function Works() {
                     <div class="card-body">
                         <h5 class="card-title">Note Taker App</h5>
                         <p class="card-text">This app allows the user to create and delete notes from the user's database.</p>
-                        <a target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/Notes-Taker" class="btn btn-primary">Go Here</a>
+                        <a id="resume-button" target="_blank" rel="noreferrer noopener" href="https://github.com/VictoriaDunlap/Notes-Taker" class="btn btn-primary">Go Here</a>
                     </div>
                 </div>
             </div>

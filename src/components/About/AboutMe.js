@@ -11,8 +11,8 @@ function AboutMe() {
     <div id="About">
     <h1 class="mx-5 mt-5 mb-3 row justify-content-center" style={style}>Victoria Dunlap</h1>
         <div class="container-fluid row mb-5 ">
-            <img class="col-lg-4" src={pfp} alt="Victoria Dunlap, sitting and smiling"></img>
-            <div class="col-lg-8 mt-5 mb-5 lead ">
+            <img id="img-shadow" class="col-lg-4" src={pfp} alt="Victoria Dunlap, sitting and smiling"></img>
+            <div id="leadP" class="col-lg-8 mt-5 mb-5 lead ">
             <p>Welcome!</p>
             
             <p>My name is Victoria Dunlap. I am a Software Developer based in Atlanta, GA. I studied fullstack development at Georgia Institute of Technology and PR and marketing at Kennesaw State University. Through this I am an experienced team player and problem solver with a focus on mobile-first design. </p>

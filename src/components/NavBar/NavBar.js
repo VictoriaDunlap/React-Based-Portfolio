@@ -11,34 +11,34 @@ function NavBar() {
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home
+                <a id="nav-button" class="nav-link active" href="#">Home
                   {/* <span class="visually-hidden">(current)</span> */}
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#About">About</a>
+                <a id="nav-button" class="nav-link" href="#About">About</a>
               </li>
               {/* <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li> */}
               <li class="nav-item">
-                <a class="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vS_nKj-_pmjFeGoD5o_AeV6QBLcUdcn_X23uadyAMjkjxrejPOqBANGMwMdowaFLMAcjHBYY_g2eq1w/pub">Resume</a>
+                <a id="nav-button" class="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vS_nKj-_pmjFeGoD5o_AeV6QBLcUdcn_X23uadyAMjkjxrejPOqBANGMwMdowaFLMAcjHBYY_g2eq1w/pub">Resume</a>
               </li>
               <li class="nav-item">
-              <a class="nav-link" href="#Works">Work</a>
+              <a id="nav-button" class="nav-link" href="#Works">Work</a>
               </li>
               <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+              <a id="nav-button" class="nav-link" href="#Contact">Contact</a>
               </li>
             </ul>
             <ul class="navbar-nav ms-md-auto">
               <li class="nav-item">
-                <a target="_blank" rel="noreferrer noopener" class="nav-link" href="https://github.com/VictoriaDunlap">
+                <a id="nav-button" target="_blank" rel="noreferrer noopener" class="nav-link" href="https://github.com/VictoriaDunlap">
                 <i class="bi bi-github"> GitHub</i>
                 </a>
               </li>
               <li class="nav-item">
-              <a target="_blank" rel="noreferrer noopener" class="nav-link" href="https://www.linkedin.com/in/victoria-dunlap/">
+              <a id="nav-button" target="_blank" rel="noreferrer noopener" class="nav-link" href="https://www.linkedin.com/in/victoria-dunlap/">
               <i class="bi bi-linkedin"> LinkedIn</i>
               </a>
               </li>
