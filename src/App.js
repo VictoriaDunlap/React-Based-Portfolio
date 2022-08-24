@@ -12,7 +12,7 @@ function App() {
           <NavBar />
           <AboutMe />
           <Works />
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Footer />
       </div>
   )
