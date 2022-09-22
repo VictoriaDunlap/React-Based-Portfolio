@@ -11,7 +11,7 @@ function NavBar() {
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a id="nav-button" class="nav-link active" href="#">Home
+                <a id="nav-button" class="nav-link active" href=" ">Home
                   {/* <span class="visually-hidden">(current)</span> */}
                 </a>
               </li>
